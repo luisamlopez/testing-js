@@ -9,8 +9,12 @@ describe('Test for person', () => {
   });
 
   test('Should return down', () => {
+    // AAA
+    // Arrange / Given
     person.weight = 45;
+    // Act / When
     const imc = person.calcIMC();
+    // Assert / Then
     expect(imc).toBe('down');
   });
 
